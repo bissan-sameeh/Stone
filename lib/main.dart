@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
             const SizedBox(
-              height: 8,
+              height: 4,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -62,8 +62,8 @@ class _MyAppState extends State<MyApp> {
                 const Text(
                   "You",
                   style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                      //  fontWeight: FontWeight.bold,
                       color: Colors.white),
                 ),
                 Container(
@@ -71,15 +71,15 @@ class _MyAppState extends State<MyApp> {
                   child: const Text(
                     "System",
                     style: TextStyle(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                        //  fontWeight: FontWeight.bold,
                         color: Colors.white),
                   ),
                 ),
               ],
             ),
             const SizedBox(
-              height: 32,
+              height: 55,
             ),
             Column(
               children: [
